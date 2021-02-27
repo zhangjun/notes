@@ -33,8 +33,8 @@
     },
     "github-buttons": {
       "buttons": [{
-        "user": "riskers",
-        "repo": "gitbook-template",
+        "user": "zhangjun",
+        "repo": "notes",
         "type": "star",
         "size": "small",
         "count": true
@@ -46,7 +46,7 @@
       "multilingual": false
     },
     "ga": {
-      "token": "UA-131910384-3"
+      "token": ""
     },
     "prism": {
       "ignore": [
@@ -60,7 +60,7 @@
     "page-footer-ex": {
       "copyright": "©2021 [zhangjun](https://github.com/zhangjun)",
       "markdown": true,
-      "update_label": "Last Modified:",
+      "update_label": "Last Modified:",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     },
     "bibtex-indexed-cite": {
