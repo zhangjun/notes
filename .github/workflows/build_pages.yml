@@ -1,8 +1,8 @@
-# Sample workflow for building and deploying a Next.js site to GitHub Pages
+# Sample workflow for building and deploying a Quartz v4 site to GitHub Pages
 #
-# To get started with Next.js see: https://nextjs.org/docs/getting-started
+# To get started with Quartz v4 see: https://quartz.jzhao.xyz/
 #
-name: Deploy Next.js site to Pages
+name: Deploy Quartz v4 site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -66,7 +66,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with quartz
-        run: ${{ steps.detect-package-manager.outputs.runner }} quartz build
+        run: ${{ steps.detect-package-manager.outputs.runner }} quartz build -d docs
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
