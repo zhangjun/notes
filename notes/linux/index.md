@@ -1,3 +1,3 @@
 ---
-title: Linux notes
+title: linux
 ---

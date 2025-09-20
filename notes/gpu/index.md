@@ -1,3 +1,3 @@
 ---
-title: GPU notes
+title: gpu
 ---

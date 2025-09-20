@@ -1,3 +1,3 @@
 ---
-title: LLM notes
+title: llm
 ---
