@@ -5,7 +5,7 @@ title: gpu new features
 ## V100 新特性
 - Volta SIMT Model
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/1312389/184500671-18368901-0704-4489-b35b-58251427d9c9.png">
- __syncwarp() to force reconvergence
+__syncwarp() to force reconvergence
 - Cooperative Groups
 
 ## A100 新特性
