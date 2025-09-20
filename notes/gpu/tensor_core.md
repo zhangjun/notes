@@ -1,5 +1,5 @@
 ---
-title: cuda memory
+title: tensor core
 ---
 
 ## Tensor Core
