@@ -5,8 +5,8 @@ title: flash attention
 # Flash Attention
 ## [Flash Attention](https://openreview.net/pdf?id=H4DqfPSibmx)
 - parallelism
-parallelize over batch_size and num of heads
-flash attention2 - long sequences(small batch size or num of heads), parallelize over sequence length dimension
+  parallelize over batch_size and num of heads
+  flash attention2 - long sequences(small batch size or num of heads), parallelize over sequence length dimension
 - better work partition
   reduce the amount of synchronization and communication between different warps
   FlashAttention splits K and V across 4 warps while keeping Q accessible by all warps.
